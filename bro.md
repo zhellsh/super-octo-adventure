@@ -13,3 +13,6 @@ for file in *.mp3; mkdir $(echo $(ffmpeg -i $file 2> >(grep "album")) | sed 's/a
 ```zsh
 for file in *.mp3; mv $file $(echo $(ffmpeg -i $file 2> >(grep "album")) | sed 's/album : //g' | tr '\ ' '_')
 ```
+```zsh
+../yoot_2.sh
+```
