@@ -1,4 +1,7 @@
 ```zsh
+./yoot_1.sh
+```
+```zsh
 cd music
 ```
 ```zsh
