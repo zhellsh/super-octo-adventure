@@ -1,4 +1,7 @@
 ```zsh
+cd music
+```
+```zsh
 for file in *.mp3; do mv -- "$file" "${file// /_}"
 ```
 ```zsh
